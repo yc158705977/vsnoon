@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link href="http://g.vsnoon.net/js/lhgdialog/skins/default.css" rel="stylesheet" id="lhgdialoglink">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>用户登录</title>
+		<link type="text/css" rel="stylesheet" href="http://g.vsnoon.net/css/common.css">
+		<link type="text/css" rel="stylesheet" href="http://g.vsnoon.net/css/main1.css?v=6.111">
+		<link type="text/css" rel="stylesheet" href="http://g.vsnoon.net/css/user.css">
+		<script src="//hm.baidu.com/hm.js?6b1a10bb4f2daabfe0eb30ca975a1aa1"></script>
+		<script type="text/javascript" async="" src="http://static.mediav.com/mvl.js"></script>
+		<script type="text/javascript" src="http://g.vsnoon.net/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="http://g.vsnoon.net/js/jquery.scrollLoading.js"></script>
+		<script type="text/javascript" src="http://g.vsnoon.net/js/common.js"></script>
+		<script type="text/javascript" src="http://g.vsnoon.net/js/lhgdialog/lhgdialog.min.js"></script>
+		<script type="text/javascript" src="http://g.vsnoon.net/js/Validform_v5.3.2_min.js"></script>	
+		<script type="text/javascript" src="http://g.vsnoon.net/js/loginReg.js"></script>
+    <meta name="vieport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+		<style>
+		
+		</style>
+</head>
+<body>
+  <div class style="left: 0px;top: 0px;visibility:hidden;position:absolute;">
+      <table class="ui_border"></table>
+  </div>
+   <div class="min header">
+      <div class="wrap">
+          <h1 class="logo f1">
+              <a href="">
+                  <img src="http://g.vsnoon.net/img/400_m.png" alt="">
+              </a>
+          </h1>
+          <div class="fr mini-step">
+              <p class="mini-400"><img src="400_m.png" alt=""></p>
+          </div>
+      </div>
+       <div class="u_pad clearfix">
+           <div class="wrap980 u_login_wrap">
+               <div class="fl u_ads">
+                   <a href="/index.php?c=Ads&amp;a=go&amp;id=2715&amp;url=http%3A%2F%2Fwww.vsnoon.com%2Fuser.php%3Fc%3DInfo%26a%3Dindex" target="_blank" title="完善生日信息"><img src="http://i.img.vsnoon.net/image/20140512/13998660698724.jpg"></a>			    </div>
+               <div class="fr" id="u_login">
+                   <h1><a href="/user.php?c=User&amp;a=register" class="fr u_link">注册新账号</a>用户登录</h1>
+                   <form action="/user.php?c=User&amp;a=login" method="post" id="loginRegForm">
+                       <input type="hidden" name="url" value="http://www.vsnoon.com/">
+                       <p>用户EMail/手机号：</p>
+                       <p><input type="text" name="username" class="u_inp" datatype="m|e|*" errormsg="您输入的用户名格式不正确，请重新输入！" nullmsg="请输入您的账号！"></p>
+                       <p>密码：</p>
+                       <p><input type="password" name="password" class="u_inp" nullmsg="请输入您的密码！"></p>
+                       <p><a class="fr u_fog" href="/user.php?c=User&amp;a=getPwd">忘记密码？</a><input type="submit" value="登录" name="submit" class="u_sub"></p>
+                       <div class="u_other">
+                           <p>
+                               <a href="/user.php?c=Oauth&amp;a=qq" title="QQ登录" class="oauth o_qq"></a>
+                               <a href="/user.php?c=Oauth&amp;a=sina" title="新浪微博登录" class="oauth o_sina hide"></a>
+                               <a href="/user.php?c=Oauth&amp;a=alipay" title="支付宝快捷登录" class="oauth o_alipay"></a>
+                           </p>
+                       </div>
+                   </form>
+               </div>
+           </div>
+       </div>
+   </div>
+<div class="copyright mini-ft">
+    <div class="wrap">
+        <p><a href="/" target="_blank">首页</a>&nbsp;&nbsp;
+           <a href="/" target="_blank">关于VSNOON</a>&nbsp;&nbsp;
+           <a href="/" target="_blank">团购优惠</a>&nbsp;&nbsp;
+           <a href="/" target="_blank">积分说明</a>&nbsp;&nbsp;
+					 <a href="/" target="_blank">隐私申明</a>&nbsp;&nbsp;
+					 <a href="/" target="_blank">帮助与投诉</a>&nbsp;&nbsp;
+					 <a href="/" target="_blank">联系我们</a>
+				</p>
+				<p>Copyright &copy; 2009 - 2019 维思诺官方网站 皮鞋网上商城 All Rights Reserved
+				<a href="" target="_blank" rel="nofollow">粤ICP备13046764号</a>
+				</p>
+    </div>
+		   <div id="sidebar">
+			 <ul>
+            <li class="one"></li>
+            <li class="kf"><a class="vsnoon-text" target="_blank" href="http://www22.53kf.com/webCompany.php?arg=vsnooncom&style=1&kflist=off&kf=&zdkf_type=1&language=zh-cn&charset=gbk&lytype=0&referer=&keyword=&tfrom=1&tpl=crystal_blue&timeStamp=1564658328">CC客服</a><!-- <div class="vsnoon-black">客服在线</div> --></li>
+            <li class="myinfo"><a class="vsnoon-text" href="/user.php">个人中心</a><!-- <div class="vsnoon-black">个人中心</div> --></li>
+            <li class="cart"><a class="vsnoon-text"  href="/?c=Cart&a=shopCar">购物车</a><!-- <div class="vsnoon-black">我的购物车</div> --></li>
+            <!-- <li class="favourite"><a class="vsnoon-text" href="/user.php?c=Collect&a=index#container">我的最爱</a><div class="vsnoon-black">我的收藏</div></li> -->
+            
+            <li class="history"><a class="vsnoon-text" href="javascript:void(0);">浏览历史</a><div style="position: absolute; right: 54px;display: none; background: #fff; top:-172px;width:221px;height: 322px" data-url="/api.php?c=Product&a=getProdBrowseHistory&num=3" id="historyHTML"></div>
+            </li>
+            <li class="sms"><a class="vsnoon-text" href="javascript:void(0);">短信下单</a><div class="vsnoon-black sms_detail"><img src="http://g.vsnoon.net/img/sider_new/sms_detail2.jpg" /></div>
+            </li>
+            <li class="write"><a class="vsnoon-text" href="/index.php?c=Article&a=help&id=10">建议反馈</a><!-- <div class="vsnoon-black">建议反馈</div> --></li>
+            <li class="code"><a class="vsnoon-text" href="javascript:void(0);">二维码</a><div class="vsnoon-black erweima"><img src="http://g.vsnoon.net/img/sider/erweima2.jpg" /></div></li>
+            <li id="fbox-top"><a href="javascript:void(0);">&nbsp;&nbsp;</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html
